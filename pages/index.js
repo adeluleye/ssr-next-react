@@ -1,15 +1,9 @@
-import Link from 'next/link';
+import NavBar from '../components/navBar';
 
 const Index = () => {
   return (
     <div>
-      <ul>
-        <li>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </li>
-      </ul>
+      <NavBar />
       <h1>SSR in React with Next.js</h1>
     </div>
   );
