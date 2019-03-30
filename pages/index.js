@@ -1,11 +1,12 @@
-import NavBar from '../components/navBar';
+import Layout from '../components/layout';
 
 const Index = () => {
   return (
-    <div>
-      <NavBar />
-      <h1>SSR in React with Next.js</h1>
-    </div>
+    <Layout>
+      <div>
+        <h1>SSR in React with Next.js</h1>
+      </div>
+    </Layout>
   );
 };
 
